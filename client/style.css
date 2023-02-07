@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+header {
+  text-align: center;
+}
+#toggle-mode {
+  position:absolute;
+  top:0;
+  left:0;
+  margin: 1%;
+}
+#dish-select {
+  display: block;
+  margin: 0 auto;
+}
+#dish-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+#dish-info img {
+  width: 50%;
+}
+#dish-info p {
+  margin: 0.5rem 0;
+}
+.night-mode {
+  background-color: black;
+  color: white;
+}
+.night-mode #dish-info img {
+  filter: brightness(0.5);
+}
